@@ -67,7 +67,7 @@ export default function ArchivesPage() {
     <div className="min-h-screen bg-white">
       <Header/>
 
-      <section className="bg-[#800080] text-white py-16">
+      <section className="bg-[#071936] text-white py-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div>
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
@@ -85,7 +85,7 @@ export default function ArchivesPage() {
         </div>
       </section>
 
-      <section className="bg-[#FAF7F8] border-b-2 border-[#EAD3D9] py-6">
+      <section className="bg-[#FAF7F8] border-b-2 border-[#8690a0c2] py-6">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-4">
             <div className="flex-1 relative">
@@ -94,7 +94,7 @@ export default function ArchivesPage() {
                 placeholder="Search articles by title, author, keywords..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full px-4 py-3 pl-12 border-2 border-[#EAD3D9] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#800080]"
+                className="w-full px-4 py-3 pl-12 border-2 border-[#8690a0c2] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#071936]"
               />
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
             </div>
@@ -103,7 +103,7 @@ export default function ArchivesPage() {
               <select
                 value={filterYear}
                 onChange={(e) => setFilterYear(e.target.value)}
-                className="px-4 py-3 border-2 border-[#EAD3D9] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#800080] font-medium"
+                className="px-4 py-3 border-2 border-[#8690a0c2] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#071936] font-medium"
               >
                 <option value="all">All Years</option>
                 {years.map((year) => (
@@ -116,7 +116,7 @@ export default function ArchivesPage() {
               <select
                 value={filterType}
                 onChange={(e) => setFilterType(e.target.value)}
-                className="px-4 py-3 border-2 border-[#EAD3D9] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#800080] font-medium"
+                className="px-4 py-3 border-2 border-[#8690a0c2] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#071936] font-medium"
               >
                 {articleTypes.map((type) => (
                   <option key={type} value={type}>
@@ -146,14 +146,14 @@ export default function ArchivesPage() {
               {years.map((year) => (
                 <div
                   key={year}
-                  className="bg-white border-2 border-[#EAD3D9] rounded-xl overflow-hidden"
+                  className="bg-white border-2 border-[#8690a0c2] rounded-xl overflow-hidden"
                 >
                   <button
                     onClick={() => toggleYear(year)}
                     className="w-full flex items-center justify-between p-6 hover:bg-[#FAF7F8] transition-colors"
                   >
                     <div className="flex items-center gap-4">
-                      <div className="w-12 h-12 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold text-lg">
+                      <div className="w-12 h-12 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold text-lg">
                         {issuesByYear[year].length}
                       </div>
                       <div className="text-left">
@@ -174,13 +174,13 @@ export default function ArchivesPage() {
                   </button>
 
                   {expandedYear === year && (
-                    <div className="border-t-2 border-[#EAD3D9] p-4 sm:p-6">
+                    <div className="border-t-2 border-[#8690a0c2] p-4 sm:p-6">
                     <div className="space-y-4">
                       {issuesByYear[year].map((issue) => (
                         <Link
                           key={`${issue.volume}-${issue.issue}`}
                           href={`/current-issue`}
-                          className="group flex flex-col sm:flex-row gap-4 sm:gap-6 bg-white border-2 border-[#EAD3D9] rounded-xl overflow-hidden hover:shadow-xl hover:border-[#800080] transition-all p-4"
+                          className="group flex flex-col sm:flex-row gap-4 sm:gap-6 bg-white border-2 border-[#8690a0c2] rounded-xl overflow-hidden hover:shadow-xl hover:border-[#071936] transition-all p-4"
                         >
                           <div className="relative w-full sm:w-32 h-56 sm:h-48 shrink-0">
                             <Image
@@ -192,7 +192,7 @@ export default function ArchivesPage() {
                           </div>
                           <div className="flex-1">
                             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-2 gap-2">
-                              <h3 className="text-lg sm:text-xl font-bold text-[#212121] group-hover:text-[#800080] transition-colors">
+                              <h3 className="text-lg sm:text-xl font-bold text-[#212121] group-hover:text-[#071936] transition-colors">
                                 Volume {issue.volume}, Issue {issue.issue} ({issue.year})
                               </h3>
                               {issue.featured && (
@@ -218,11 +218,11 @@ export default function ArchivesPage() {
                               DOI: {issue.doi}
                             </div>
                             <div className="flex flex-col sm:flex-row gap-3">
-                              <span className="inline-flex items-center justify-center gap-2 bg-[#800080] text-white px-4 py-2 rounded-lg font-semibold text-sm">
+                              <span className="inline-flex items-center justify-center gap-2 bg-[#071936] text-white px-4 py-2 rounded-lg font-semibold text-sm">
                                 <BookOpen className="h-4 w-4" />
                                 View Issue
                               </span>
-                              <span className="inline-flex items-center justify-center gap-2 border-2 border-[#800080] text-[#800080] px-4 py-2 rounded-lg font-semibold text-sm">
+                              <span className="inline-flex items-center justify-center gap-2 border-2 border-[#071936] text-[#071936] px-4 py-2 rounded-lg font-semibold text-sm">
                                 <Download className="h-4 w-4" />
                                 Download PDF
                               </span>
@@ -240,30 +240,30 @@ export default function ArchivesPage() {
           )}
 
           <div className="mt-12 grid md:grid-cols-4 gap-6">
-            <div className="bg-[#800080] text-white rounded-xl p-6 text-center">
+            <div className="bg-[#071936] text-white rounded-xl p-6 text-center">
               <div className="text-4xl font-bold mb-2">{issues.length}</div>
               <div className="text-sm text-[#FFE9EE]">
                 Total Issues Published
               </div>
             </div>
-            <div className="bg-[#800080] text-white rounded-xl p-6 text-center">
+            <div className="bg-[#071936] text-white rounded-xl p-6 text-center">
               <div className="text-4xl font-bold mb-2">
                 {issues.reduce((sum, issue) => sum + issue.articleCount, 0)}
               </div>
               <div className="text-sm text-[#FFE9EE]">Total Articles</div>
             </div>
-            <div className="bg-[#800080] text-white rounded-xl p-6 text-center">
+            <div className="bg-[#071936] text-white rounded-xl p-6 text-center">
               <div className="text-4xl font-bold mb-2">100%</div>
               <div className="text-sm text-[#FFE9EE]">Open Access</div>
             </div>
-            <div className="bg-[#800080] text-white rounded-xl p-6 text-center">
+            <div className="bg-[#071936] text-white rounded-xl p-6 text-center">
               <div className="text-4xl font-bold mb-2">{years.length}</div>
               <div className="text-sm text-[#FFE9EE]">Years Active</div>
             </div>
           </div>
 
-          <div className="mt-12 bg-[#FAF7F8] border-2 border-[#EAD3D9] rounded-xl p-8 text-center">
-            <h3 className="text-2xl font-bold text-[#800080] mb-4">
+          <div className="mt-12 border-2 border-[#8690a0c2] rounded-xl p-8 text-center">
+            <h3 className="text-2xl font-bold text-[#071936] mb-4">
               Can&apos;t Find What You&apos;re Looking For?
             </h3>
             <p className="text-gray-700 mb-6 mx-auto">
@@ -273,14 +273,14 @@ export default function ArchivesPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/search"
-                className="inline-flex items-center gap-2 bg-[#800080] text-white px-8 py-3 rounded-lg hover:bg-[#800080] transition-colors font-semibold"
+                className="inline-flex border border-[#071936] items-center gap-2 bg-[#071936] text-white px-8 py-3 rounded-lg hover:bg-[#8690a0c2] transition-colors font-semibold"
               >
                 <Search className="h-5 w-5" />
                 Advanced Search
               </Link>
               <Link
                 href="/for-authors"
-                className="inline-flex items-center gap-2 border-2 border-[#800080] text-[#800080] px-8 py-3 rounded-lg hover:bg-[#FFE9EE] transition-colors font-semibold"
+                className="inline-flex items-center gap-2 border-2 border-[#071936] text-[#071936] px-8 py-3 rounded-lg hover:text-white hover:bg-[#8690a0c2] transition-colors font-semibold"
               >
                 <FileText className="h-5 w-5" />
                 Submit Your Research

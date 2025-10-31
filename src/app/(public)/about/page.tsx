@@ -22,7 +22,7 @@ export default function AboutPage() {
      <Header/>
 
       {/* Hero Section */}
-      <section className="relative bg-[#800080] to-[#5A0A1A] text-white py-20">
+      <section className="relative bg-[#071936] to-[#5A0A1A] text-white py-20">
         <div className="absolute inset-0 opacity-10">
           <Image
             src="/about-hero.png"
@@ -53,9 +53,9 @@ export default function AboutPage() {
             <section>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
-                  <Target className="h-6 w-6 text-[#800080]" />
+                  <Target className="h-6 w-6 text-[#071936]" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#800080] font-serif">
+                <h2 className="text-3xl font-bold text-[#071936] font-serif">
                   Mission & Scope
                 </h2>
               </div>
@@ -75,13 +75,13 @@ export default function AboutPage() {
                   development.
                 </p>
 
-                <div className="bg-[#FAF7F8] border-l-4 border-[#800080] p-6 rounded-r-lg">
+                <div className="bg-[#FAF7F8] border-l-4 border-[#071936] p-6 rounded-r-lg">
                   <h3 className="text-xl font-bold text-[#212121] mb-4">
                     Our Core Focus Areas
                   </h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-[#212121]">
                           Law & Society
@@ -93,7 +93,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-[#212121]">History</strong>
                         <p className="text-sm text-gray-600">
@@ -103,7 +103,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-[#212121]">
                           Languages & Literature
@@ -115,7 +115,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-[#212121]">Culture & Arts</strong>
                         <p className="text-sm text-gray-600">
@@ -125,7 +125,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-[#212121]">Philosophy</strong>
                         <p className="text-sm text-gray-600">
@@ -134,7 +134,7 @@ export default function AboutPage() {
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
-                      <CheckCircle className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+                      <CheckCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
                       <div>
                         <strong className="text-[#212121]">
                           Environmental Humanities
@@ -153,9 +153,9 @@ export default function AboutPage() {
             <section>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
-                  <Users className="h-6 w-6 text-[#800080]" />
+                  <Users className="h-6 w-6 text-[#071936]" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#800080] font-serif">
+                <h2 className="text-3xl font-bold text-[#071936] font-serif">
                   Editorial Leadership
                 </h2>
               </div>
@@ -169,7 +169,7 @@ export default function AboutPage() {
 
               <div className="grid md:grid-cols-2 gap-6 mb-8">
                 {/* Editor-in-Chief */}
-                <div className="bg-white border-2 border-[#800080] rounded-xl p-6">
+                <div className="bg-white border-2 border-[#071936] rounded-xl p-6">
                   <div className="w-20 h-20 bg-gray-200 rounded-full mb-4">
                     <Image
                       src="/editor-chief.png"
@@ -179,7 +179,7 @@ export default function AboutPage() {
                       className="rounded-full"
                     />
                   </div>
-                  <p className="text-sm text-[#800080] font-bold mb-1">
+                  <p className="text-sm text-[#071936] font-bold mb-1">
                     EDITOR-IN-CHIEF
                   </p>
                   <h3 className="text-lg font-bold text-[#212121] mb-2">
@@ -197,7 +197,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Managing Editor */}
-                <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6 hover:border-[#800080] transition-colors">
+                <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6 hover:border-[#071936c2] transition-colors">
                   <div className="w-20 h-20 bg-gray-200 rounded-full mb-4">
                     <Image
                       src="/managing-editor.png"
@@ -207,7 +207,7 @@ export default function AboutPage() {
                       className="rounded-full"
                     />
                   </div>
-                  <p className="text-sm text-[#800080] font-bold mb-1">
+                  <p className="text-sm text-[#071936] font-bold mb-1">
                     MANAGING EDITOR
                   </p>
                   <h3 className="text-lg font-bold text-[#212121] mb-2">
@@ -226,7 +226,7 @@ export default function AboutPage() {
 
               <Link
                 href="/editorial-board"
-                className="inline-flex items-center gap-2 text-[#800080] font-semibold hover:text-[#5A0A1A] text-lg"
+                className="inline-flex items-center gap-2 text-[#071936] font-semibold hover:text-[#071936c2] text-lg"
               >
                 View Full Editorial Board
                 <ChevronRight className="h-5 w-5" />
@@ -237,9 +237,9 @@ export default function AboutPage() {
             <section>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
-                  <Shield className="h-6 w-6 text-[#800080]" />
+                  <Shield className="h-6 w-6 text-[#071936]" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#800080] font-serif">
+                <h2 className="text-3xl font-bold text-[#071936] font-serif">
                   Peer Review Process
                 </h2>
               </div>
@@ -250,12 +250,12 @@ export default function AboutPage() {
                 reviewed by at least two independent experts in the field.
               </p>
 
-              <div className="bg-white border-2 border-[#fbefff] rounded-xl p-8">
+              <div className="bg-white border-2 border-[#071936] rounded-xl p-8">
                 <div className="relative">
                   {/* Flowchart-style process */}
                   <div className="space-y-6">
                     <div className="flex gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold">
+                      <div className="flex-shrink-0 w-10 h-10 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold">
                         1
                       </div>
                       <div className="flex-1">
@@ -270,7 +270,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="flex gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold">
+                      <div className="flex-shrink-0 w-10 h-10 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold">
                         2
                       </div>
                       <div className="flex-1">
@@ -284,7 +284,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="flex gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold">
+                      <div className="flex-shrink-0 w-10 h-10 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold">
                         3
                       </div>
                       <div className="flex-1">
@@ -298,7 +298,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="flex gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold">
+                      <div className="flex-shrink-0 w-10 h-10 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold">
                         4
                       </div>
                       <div className="flex-1">
@@ -341,9 +341,9 @@ export default function AboutPage() {
             <section>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
-                  <Globe className="h-6 w-6 text-[#800080]" />
+                  <Globe className="h-6 w-6 text-[#071936]" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#800080] font-serif">
+                <h2 className="text-3xl font-bold text-[#071936] font-serif">
                   Indexing & Discoverability
                 </h2>
               </div>
@@ -355,28 +355,28 @@ export default function AboutPage() {
               </p>
 
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6">
+                <div className="bg-white border-2 border-[#071936] rounded-xl p-6">
                   <h3 className="font-bold text-[#212121] mb-4 flex items-center gap-2">
                     <CheckCircle className="h-5 w-5 text-green-600" />
                     Currently Indexed In
                   </h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-[#800080] rounded-full"></div>
+                      <div className="w-2 h-2 bg-[#071936] rounded-full"></div>
                       Google Scholar
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-[#800080] rounded-full"></div>
+                      <div className="w-2 h-2 bg-[#071936] rounded-full"></div>
                       Crossref (DOI Registration)
                     </li>
                     <li className="flex items-center gap-2">
-                      <div className="w-2 h-2 bg-[#800080] rounded-full"></div>
+                      <div className="w-2 h-2 bg-[#071936] rounded-full"></div>
                       PKP Preservation Network
                     </li>
                   </ul>
                 </div>
 
-                <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6">
+                <div className="bg-white border-2 border-[#071936] rounded-xl p-6">
                   <h3 className="font-bold text-[#212121] mb-4 flex items-center gap-2">
                     <TrendingUp className="h-5 w-5 text-blue-600" />
                     Application Pending
@@ -403,9 +403,9 @@ export default function AboutPage() {
             <section>
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
-                  <Award className="h-6 w-6 text-[#800080]" />
+                  <Award className="h-6 w-6 text-[#071936]" />
                 </div>
-                <h2 className="text-3xl font-bold text-[#800080] font-serif">
+                <h2 className="text-3xl font-bold text-[#071936] font-serif">
                   History & Achievements
                 </h2>
               </div>
@@ -425,7 +425,7 @@ export default function AboutPage() {
                   national investment in quality academic publishing.
                 </p>
 
-                <div className="bg-[#800080] text-white rounded-xl p-8">
+                <div className="bg-[#071936] text-white rounded-xl p-8">
                   <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
                   <p className="text-[#fbefff] leading-relaxed">
                     To become a leading platform for Science, Technology and Innovation scholarship that
@@ -438,13 +438,13 @@ export default function AboutPage() {
             </section>
 
             {/* Contact */}
-            <section id="contact" className="bg-[#FAF7F8] border-2 border-[#fbefff] rounded-xl p-8">
+            <section id="contact" className="bg-white border-2 border-[#071936] rounded-xl p-8">
               <div className="flex items-start gap-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-[#800080] rounded-full flex items-center justify-center">
+                <div className="flex-shrink-0 w-16 h-16 bg-[#071936] rounded-full flex items-center justify-center">
                   <Mail className="h-8 w-8 text-white" />
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-[#800080] mb-4">
+                  <h2 className="text-2xl font-bold text-[#071936] mb-4">
                     Contact Information
                   </h2>
                   <div className="space-y-3">
@@ -453,7 +453,7 @@ export default function AboutPage() {
                       <br />
                       <a
                         href="mailto:journalst@uniben.edu"
-                        className="text-[#800080] hover:text-[#5A0A1A]"
+                        className="text-[#071936] hover:text-[#071936c2]"
                       >
                         journalst@uniben.edu
                       </a>
@@ -481,7 +481,7 @@ export default function AboutPage() {
           <div className="lg:col-span-1">
             <div className="sticky top-24 space-y-6">
               {/* Quick Stats */}
-              <div className="bg-[#800080] text-white rounded-xl p-6">
+              <div className="bg-[#071936] text-white rounded-xl p-6">
                 <h3 className="text-lg font-bold mb-6">At a Glance</h3>
                 <div className="space-y-4">
                   <div className="pb-4 border-b border-white/20">
@@ -503,7 +503,7 @@ export default function AboutPage() {
 
               {/* CTA Box */}
               <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6">
-                <h3 className="text-lg font-bold text-[#800080] mb-4">
+                <h3 className="text-lg font-bold text-[#071936] mb-4">
                   Ready to Publish?
                 </h3>
                 <p className="text-sm text-gray-700 mb-6">
@@ -511,22 +511,22 @@ export default function AboutPage() {
                 </p>
                 <Link
                   href="/submission"
-                  className="block w-full bg-[#800080] text-white text-center px-6 py-3 rounded-lg font-bold hover:bg-[#5A0A1A] transition-colors"
+                  className="block w-full bg-[#071936] text-white text-center px-6 py-3 rounded-lg font-bold hover:bg-[#071936c2] transition-colors"
                 >
                   Submit Manuscript
                 </Link>
               </div>
 
               {/* Quick Links */}
-              <div className="bg-[#FAF7F8] border-2 border-[#fbefff] rounded-xl p-6">
-                <h3 className="text-lg font-bold text-[#800080] mb-4">
+              <div className="bg-white border-2 border-[#071936] rounded-xl p-6">
+                <h3 className="text-lg font-bold text-[#071936] mb-4">
                   Explore More
                 </h3>
                 <ul className="space-y-3">
                   <li>
                     <Link
                       href="/for-authors"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#071936c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Author Guidelines
@@ -535,7 +535,7 @@ export default function AboutPage() {
                   <li>
                     <Link
                       href="/editorial-board"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#071936c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Editorial Board
@@ -544,7 +544,7 @@ export default function AboutPage() {
                   <li>
                     <Link
                       href="/policies"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#071936c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Editorial Policies
@@ -553,7 +553,7 @@ export default function AboutPage() {
                   <li>
                     <Link
                       href="/current-issue"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#071936c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Current Issue

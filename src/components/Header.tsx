@@ -9,7 +9,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[#800080] text-white shadow-lg sticky top-0 z-50">
+    <header className="bg-[#071936] border-b border-white text-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo + Title */}
@@ -65,7 +65,7 @@ export default function Header() {
             </Link>
             <Link
               href="/submission"
-              className="bg-white text-[#800080] px-6 py-2 rounded-full font-semibold hover:bg-[#FFE9EE] transition-all shadow-lg hover:shadow-xl"
+              className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#FFE9EE] transition-all shadow-lg hover:shadow-xl"
             >
               Submit Manuscript
             </Link>
@@ -83,7 +83,7 @@ export default function Header() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-[#800080] border-t border-[#FFE9EE]/20 absolute right-0 top-20 w-3/4 sm:w-1/2 rounded-bl-xl shadow-lg animate-slide-down">
+        <div className="lg:hidden bg-[#071936] border-t border-[#FFE9EE]/20 absolute right-0 top-20 w-3/4 sm:w-1/2 rounded-bl-xl shadow-lg animate-slide-down">
           <nav className="flex flex-col p-6 space-y-4">
             <Link
               href="/"
@@ -123,7 +123,7 @@ export default function Header() {
             <Link
               href="/submission"
               onClick={() => setIsOpen(false)}
-              className="bg-white text-[#800080] px-6 py-2 rounded-full font-semibold hover:bg-[#FFE9EE] transition-all shadow-lg hover:shadow-xl text-center"
+              className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#FFE9EE] transition-all shadow-lg hover:shadow-xl text-center"
             >
               Submit Manuscript
             </Link>

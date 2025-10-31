@@ -66,7 +66,7 @@ export default function ForAuthorsPage() {
      <Header/>
 
       {/* Hero Section */}
-      <section className="bg-[#800080] text-white py-16">
+      <section className="bg-[#071936] text-white py-16">
          <div className="absolute inset-0 opacity-10">
                           {/* Placeholder for subtle pattern/texture */}
                           <Image
@@ -96,29 +96,29 @@ export default function ForAuthorsPage() {
       </section>
 
       {/* Quick Stats */}
-      <section className="py-8 bg-[#FAF7F8] border-b-2 border-[#EAD3D9]">
+      <section className="py-8 bg-[#FAF7F8] border-b-2 border-[#8690a0c2]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-[#800080] mb-2">
+              <div className="text-4xl font-bold text-[#071936] mb-2">
                 0 NGN
               </div>
               <p className="text-gray-600">Article Processing Charges</p>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#800080] mb-2">
+              <div className="text-4xl font-bold text-[#071936] mb-2">
                 3-6
               </div>
               <p className="text-gray-600">Weeks to First Decision</p>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#800080] mb-2">
+              <div className="text-4xl font-bold text-[#071936] mb-2">
                 100%
               </div>
               <p className="text-gray-600">Open Access</p>
             </div>
             <div>
-              <div className="text-4xl font-bold text-[#800080] mb-2">
+              <div className="text-4xl font-bold text-[#071936] mb-2">
                 CC BY 4.0
               </div>
               <p className="text-gray-600">Creative Commons License</p>
@@ -134,14 +134,14 @@ export default function ForAuthorsPage() {
           <div className="lg:col-span-2 space-y-12">
             {/* Submission Guidelines */}
             <section id="guidelines">
-              <h2 className="text-3xl font-bold text-[#800080] mb-6 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-6 font-serif">
                 Submission Guidelines
               </h2>
 
               <div className="space-y-6">
-                <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6">
+                <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6">
                   <h3 className="text-xl font-bold text-[#212121] mb-4 flex items-center gap-2">
-                    <BookOpen className="h-6 w-6 text-[#800080]" />
+                    <BookOpen className="h-6 w-6 text-[#071936]" />
                     Types of Manuscripts We Accept
                   </h3>
                   <ul className="space-y-3">
@@ -206,9 +206,9 @@ export default function ForAuthorsPage() {
                   </ul>
                 </div>
 
-                <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6">
+                <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6">
                   <h3 className="text-xl font-bold text-[#212121] mb-4 flex items-center gap-2">
-                    <FileText className="h-6 w-6 text-[#800080]" />
+                    <FileText className="h-6 w-6 text-[#071936]" />
                     Manuscript Formatting Requirements
                   </h3>
                   <div className="space-y-4">
@@ -263,11 +263,11 @@ export default function ForAuthorsPage() {
                       </ul>
                     </div>
 
-                    <div className="bg-[#fbefff] border border-[#E6B6C2] rounded-lg p-4">
+                    <div className=" border border-[#8690a0c2] rounded-lg p-4">
   <div className="flex items-start gap-3">
-    <Download className="h-5 w-5 text-[#800080] flex-shrink-0 mt-0.5" />
+    <Download className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />
     <div>
-      <h4 className="font-semibold text-[#800080] mb-2">
+      <h4 className="font-semibold text-[#071936] mb-2">
         Download Manuscript Template
       </h4>
       <p className="text-gray-700 text-sm mb-3">
@@ -277,7 +277,7 @@ export default function ForAuthorsPage() {
       <a
         href="/files/UNIBEN_Journal_Of_Science_Technology_And_Innovation_Templates.docx"
         download
-        className="inline-flex items-center gap-2 bg-[#800080] text-white px-4 py-2 rounded-lg hover:bg-[#800080] transition-colors text-sm font-semibold"
+        className="inline-flex items-center gap-2 bg-[#071936] text-white px-4 py-2 rounded-lg hover:bg-[#8690a0c2] transition-colors text-sm font-semibold"
       >
         <Download className="h-4 w-4" />
         Download Template (DOCX)
@@ -293,20 +293,20 @@ export default function ForAuthorsPage() {
 
             {/* Submission Process */}
             <section id="process">
-              <h2 className="text-3xl font-bold text-[#800080] mb-6 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-6 font-serif">
                 The Submission Process
               </h2>
 
               <div className="relative">
                 {/* Vertical line */}
-                <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-[#EAD3D9]"></div>
+                <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-[#8690a0c2]"></div>
 
                 <div className="space-y-8">
           
 
                   {/* Step 2 */}
                   <div className="relative flex gap-6">
-                    <div className="flex-shrink-0 w-16 h-16 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
+                    <div className="flex-shrink-0 w-16 h-16 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
                       1
                     </div>
                     <div className="flex-1 pt-2">
@@ -319,13 +319,13 @@ export default function ForAuthorsPage() {
                         main text, references, and declarations.
                       </p>
                       <div className="flex gap-3">
-                        <span className="px-3 py-1 bg-[#fbefff] border border-[#E6B6C2] text-[#800080] rounded-full text-xs font-semibold">
+                        <span className="px-3 py-1 bg-[#8690a0c2] border border-[#8690a0c2]  rounded-full text-xs font-semibold">
                           Use our template
                         </span>
-                        <span className="px-3 py-1 bg-[#fbefff] border border-[#E6B6C2] text-[#800080] rounded-full text-xs font-semibold">
+                        <span className="px-3 py-1 bg-[#8690a0c2] border border-[#8690a0c2]  rounded-full text-xs font-semibold">
                           Include ORCID iDs
                         </span>
-                        <span className="px-3 py-1 bg-[#fbefff] border border-[#E6B6C2] text-[#800080] rounded-full text-xs font-semibold">
+                        <span className="px-3 py-1 bg-[#8690a0c2] border border-[#8690a0c2]  rounded-full text-xs font-semibold">
                           Double-check references
                         </span>
                       </div>
@@ -334,7 +334,7 @@ export default function ForAuthorsPage() {
 
                   {/* Step 3 */}
                   <div className="relative flex gap-6">
-                    <div className="flex-shrink-0 w-16 h-16 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
+                    <div className="flex-shrink-0 w-16 h-16 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
                       2
                     </div>
                     <div className="flex-1 pt-2">
@@ -357,7 +357,7 @@ export default function ForAuthorsPage() {
 
                   {/* Step 4 */}
                   <div className="relative flex gap-6">
-                    <div className="flex-shrink-0 w-16 h-16 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
+                    <div className="flex-shrink-0 w-16 h-16 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
                       3
                     </div>
                     <div className="flex-1 pt-2">
@@ -380,7 +380,7 @@ export default function ForAuthorsPage() {
 
                   {/* Step 5 */}
                   <div className="relative flex gap-6">
-                    <div className="flex-shrink-0 w-16 h-16 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
+                    <div className="flex-shrink-0 w-16 h-16 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
                       4
                     </div>
                     <div className="flex-1 pt-2">
@@ -402,7 +402,7 @@ export default function ForAuthorsPage() {
 
                   {/* Step 6 */}
                   <div className="relative flex gap-6">
-                    <div className="flex-shrink-0 w-16 h-16 bg-[#800080] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
+                    <div className="flex-shrink-0 w-16 h-16 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold text-xl z-10">
                       5
                     </div>
                     <div className="flex-1 pt-2">
@@ -458,13 +458,13 @@ export default function ForAuthorsPage() {
 
             {/* Copyright & Licensing */}
             <section id="copyright">
-              <h2 className="text-3xl font-bold text-[#800080] mb-6 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-6 font-serif">
                 Copyright & Licensing
               </h2>
 
-              <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6 space-y-6">
+              <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6 space-y-6">
                 <div className="flex items-start gap-4">
-                  <Shield className="h-8 w-8 text-[#800080] flex-shrink-0" />
+                  <Shield className="h-8 w-8 text-[#071936] flex-shrink-0" />
                   <div>
                     <h3 className="text-xl font-bold text-[#212121] mb-3">
                       Authors Retain Copyright
@@ -504,7 +504,7 @@ export default function ForAuthorsPage() {
                   </div>
                 </div>
 
-                <div className="bg-[#FAF7F8] rounded-lg p-4">
+                <div className="border border-[#8690a0c2] rounded-lg p-4">
                   <h4 className="font-semibold text-[#212121] mb-2">
                     Self-Archiving Policy
                   </h4>
@@ -519,7 +519,7 @@ export default function ForAuthorsPage() {
                   href="https://creativecommons.org/licenses/by/4.0/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-[#800080] hover:text-[#800080] font-semibold"
+                  className="inline-flex items-center gap-2 text-[#071936] hover:text-[#8690a0c2] font-semibold"
                 >
                   Learn more about CC BY 4.0
                   <ChevronRight className="h-4 w-4" />
@@ -529,13 +529,13 @@ export default function ForAuthorsPage() {
 
             {/* Data Availability */}
             <section id="data-availability">
-              <h2 className="text-3xl font-bold text-[#800080] mb-6 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-6 font-serif">
                 Data & Materials Sharing
               </h2>
 
-              <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6">
+              <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6">
                 <div className="flex items-start gap-4 mb-6">
-                  <Globe className="h-8 w-8 text-[#800080] flex-shrink-0" />
+                  <Globe className="h-8 w-8 text-[#071936] flex-shrink-0" />
                   <div>
                     <h3 className="text-xl font-bold text-[#212121] mb-3">
                       Data Availability Statement Required
@@ -579,7 +579,7 @@ export default function ForAuthorsPage() {
 
             {/* FAQs */}
             <section id="faqs">
-              <h2 className="text-3xl font-bold text-[#800080] mb-6 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-6 font-serif">
                 Frequently Asked Questions
               </h2>
 
@@ -587,17 +587,17 @@ export default function ForAuthorsPage() {
                 {faqs.map((faq, index) => (
                   <div
                     key={index}
-                    className="bg-white border-2 border-[#EAD3D9] rounded-xl overflow-hidden"
+                    className="bg-white border-2 border-[#8690a0c2] rounded-xl overflow-hidden"
                   >
                     <button
                       onClick={() => toggleFAQ(index)}
-                      className="w-full flex items-center justify-between p-6 text-left hover:bg-[#FAF7F8] transition-colors"
+                      className="w-full flex items-center justify-between p-6 text-left hover:bg-[#8690a0c2] transition-colors"
                     >
                       <h3 className="text-lg font-bold text-[#212121] pr-4">
                         {faq.question}
                       </h3>
                       <ChevronDown
-                        className={`h-6 w-6 text-[#800080] flex-shrink-0 transition-transform ${
+                        className={`h-6 w-6 text-[#071936] flex-shrink-0 transition-transform ${
                           openFAQ === index ? "rotate-180" : ""
                         }`}
                       />
@@ -615,7 +615,7 @@ export default function ForAuthorsPage() {
             </section>
 
             {/* Contact Section */}
-            <section id="contact" className="bg-[#800080] text-white rounded-xl p-8">
+            <section id="contact" className="bg-[#071936] text-white rounded-xl p-8">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0 w-16 h-16 bg-white/10 rounded-full flex items-center justify-center">
                   <Mail className="h-8 w-8 text-white" />
@@ -634,7 +634,7 @@ export default function ForAuthorsPage() {
                       <Mail className="h-5 w-5" />
                       <a
                         href="mailto:journalst@uniben.edu"
-                        className="hover:text-[#fbefff] transition-colors"
+                        className="hover:text-[#8690a0c2] transition-colors"
                       >
                         journalst@uniben.edu
                       </a>
@@ -653,14 +653,14 @@ export default function ForAuthorsPage() {
           <div className="lg:col-span-1">
             <div className="sticky top-24 space-y-6">
               {/* Quick Start CTA */}
-              <div className="bg-[#800080] text-white rounded-xl p-6 shadow-xl">
+              <div className="bg-[#071936] text-white rounded-xl p-6 shadow-xl">
                 <h3 className="text-xl font-bold mb-4">Ready to Submit?</h3>
                 <p className="text-[#fbefff] font-semibold text-sm mb-6">
                   Start your submission now through our online platform
                 </p>
                 <Link
                   href="/submission"
-                  className="block w-full bg-white text-[#800080] text-center px-6 py-3 rounded-lg font-bold hover:bg-[#fbefff] transition-all shadow-lg"
+                  className="block w-full bg-white text-[#071936] text-center px-6 py-3 rounded-lg font-bold hover:bg-[#8690a0c2] transition-all shadow-lg"
                 >
                   Submit Manuscript
                 </Link>
@@ -672,15 +672,15 @@ export default function ForAuthorsPage() {
               </div>
 
               {/* Quick Links */}
-              <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6">
-                <h3 className="text-lg font-bold text-[#800080] mb-4">
+              <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6">
+                <h3 className="text-lg font-bold text-[#071936] mb-4">
                   Quick Links
                 </h3>
                 <ul className="space-y-3">
                   <li>
                     <a
                       href="#guidelines"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Submission Guidelines
@@ -689,7 +689,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="#process"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Submission Process
@@ -698,7 +698,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="#apcs"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       APCs & Fees
@@ -707,7 +707,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="#copyright"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       Copyright & Licensing
@@ -716,7 +716,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="#faqs"
-                      className="flex items-center gap-2 text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <ChevronRight className="h-4 w-4" />
                       FAQs
@@ -726,8 +726,8 @@ export default function ForAuthorsPage() {
               </div>
 
               {/* Downloads */}
-              <div className="bg-[#FAF7F8] border-2 border-[#EAD3D9] rounded-xl p-6">
-                <h3 className="text-lg font-bold text-[#800080] mb-4 flex items-center gap-2">
+              <div className="border-2 border-[#8690a0c2] rounded-xl p-6">
+                <h3 className="text-lg font-bold text-[#071936] mb-4 flex items-center gap-2">
                   <Download className="h-5 w-5" />
                   Downloads
                 </h3>
@@ -735,7 +735,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="/files/UBJH_Manuscript_Template.docx"
-                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <FileText className="h-4 w-4" />
                       Manuscript Template (DOCX)
@@ -744,7 +744,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="/files/UBJH_Author_Guidelines.pdf"
-                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <FileText className="h-4 w-4" />
                       Full Author Guidelines (PDF)
@@ -753,7 +753,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="/files/UBJH_Citation_Style_Guide.pdf"
-                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <FileText className="h-4 w-4" />
                       Citation Style Guide (PDF)
@@ -762,7 +762,7 @@ export default function ForAuthorsPage() {
                   <li>
                     <a
                       href="/files/UBJH_Ethics_Checklist.pdf"
-                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#800080] transition-colors"
+                      className="flex items-center gap-2 text-sm text-gray-700 hover:text-[#8690a0c2] transition-colors"
                     >
                       <FileText className="h-4 w-4" />
                       Ethics Checklist (PDF)
@@ -772,33 +772,33 @@ export default function ForAuthorsPage() {
               </div>
 
               {/* Service Levels */}
-              <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6">
-                <h3 className="text-lg font-bold text-[#800080] mb-4 flex items-center gap-2">
+              <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6">
+                <h3 className="text-lg font-bold text-[#071936] mb-4 flex items-center gap-2">
                   <Clock className="h-5 w-5" />
                   Service Levels
                 </h3>
                 <ul className="space-y-3 text-sm">
                   <li className="flex justify-between items-center">
                     <span className="text-gray-700">Reviewer assignment</span>
-                    <span className="font-semibold text-[#800080]">
+                    <span className="font-semibold text-[#071936]">
                       21 days
                     </span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="text-gray-700">First decision</span>
-                    <span className="font-semibold text-[#800080]">
+                    <span className="font-semibold text-[#071936]">
                       30-45 days
                     </span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="text-gray-700">Author revisions</span>
-                    <span className="font-semibold text-[#800080]">
+                    <span className="font-semibold text-[#071936]">
                       ≤14 days
                     </span>
                   </li>
                   <li className="flex justify-between items-center">
                     <span className="text-gray-700">Publication</span>
-                    <span className="font-semibold text-[#800080]">
+                    <span className="font-semibold text-[#071936]">
                       Continuous
                     </span>
                   </li>
@@ -806,9 +806,9 @@ export default function ForAuthorsPage() {
               </div>
 
               {/* Trust Badge */}
-              <div className="border-2 border-[#EAD3D9] rounded-xl p-6 text-center">
-                <Award className="h-12 w-12 text-[#800080] mx-auto mb-3" />
-                <h3 className="font-bold text-[#800080] mb-2">
+              <div className="border-2 border-[#8690a0c2] rounded-xl p-6 text-center">
+                <Award className="h-12 w-12 text-[#071936] mx-auto mb-3" />
+                <h3 className="font-bold text-[#071936] mb-2">
                   Diamond Open Access
                 </h3>
                 <p className="text-sm text-gray-700">

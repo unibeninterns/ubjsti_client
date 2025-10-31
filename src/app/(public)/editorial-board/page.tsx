@@ -100,7 +100,7 @@ export default function EditorialBoardPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-[#800080] text-white shadow-lg sticky top-0 z-50">
+      <header className="bg-[#071936] border-b border-white text-white shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-4">
@@ -124,7 +124,7 @@ export default function EditorialBoardPage() {
             </div>
             <Link
               href="/"
-              className="text-white hover:text-[#FFE9EE] font-semibold"
+              className="text-white hover:text-[#8690a0c2] font-semibold"
             >
               ← Back to Journal
             </Link>
@@ -133,7 +133,7 @@ export default function EditorialBoardPage() {
       </header>
 
       {/* Hero */}
-      <section className="bg-[#800080] text-white py-16">
+      <section className="bg-[#071936] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
@@ -158,11 +158,11 @@ export default function EditorialBoardPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Editor-in-Chief */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-[#800080] mb-8 font-serif flex items-center gap-3">
+            <h2 className="text-3xl font-bold text-[#071936] mb-8 font-serif flex items-center gap-3">
               <Award className="h-8 w-8" />
               Editor-in-Chief
             </h2>
-            <div className="bg-white border-4 border-[#800080] rounded-2xl p-8 shadow-xl">
+            <div className="bg-white border-4 border-[#071936] rounded-2xl p-8 shadow-xl">
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="md:col-span-1">
                   <div className="relative w-48 h-48 mx-auto mb-4">
@@ -170,14 +170,14 @@ export default function EditorialBoardPage() {
                       src={editorInChief.photo}
                       alt={editorInChief.name}
                       fill
-                      className="rounded-full object-cover border-4 border-[#800080]"
+                      className="rounded-full object-cover border-4 border-[#071936]"
                     />
                   </div>
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-[#212121] mb-2">
                       {editorInChief.name}
                     </h3>
-                    <p className="text-[#800080] font-semibold mb-2">
+                    <p className="text-[#071936] font-semibold mb-2">
                       {editorInChief.role}
                     </p>
                     <p className="text-sm text-gray-600 mb-1">
@@ -192,7 +192,7 @@ export default function EditorialBoardPage() {
                           href={`https://orcid.org/${editorInChief.orcid}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 text-[#800080] hover:text-[#800080]"
+                          className="inline-flex items-center gap-1 text-[#071936] hover:text-[#071936]"
                           aria-label="ORCID"
                         >
                           <Globe className="h-4 w-4" />
@@ -202,7 +202,7 @@ export default function EditorialBoardPage() {
                       {editorInChief.email && (
                         <a
                           href={`mailto:${editorInChief.email}`}
-                          className="inline-flex items-center gap-1 text-[#800080] hover:text-[#800080]"
+                          className="inline-flex items-center gap-1 text-[#071936] hover:text-[#071936]"
                           aria-label="Email"
                         >
                           <Mail className="h-4 w-4" />
@@ -226,7 +226,7 @@ export default function EditorialBoardPage() {
                     {editorInChief.specialization.map((spec, idx) => (
                       <span
                         key={idx}
-                        className="px-4 py-2 bg-[#FFE9EE] border border-[#E6B6C2] text-[#800080] rounded-full text-sm font-semibold"
+                        className="px-4 py-2 bg-[#8690a0c2] border border-[#8690a0c2] text-[#071936] rounded-full text-sm font-semibold"
                       >
                         {spec}
                       </span>
@@ -239,10 +239,10 @@ export default function EditorialBoardPage() {
 
           {/* Managing Editor */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-[#800080] mb-8 font-serif">
+            <h2 className="text-3xl font-bold text-[#071936] mb-8 font-serif">
               Managing Editor
             </h2>
-            <div className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6 hover:shadow-xl transition-all">
+            <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6 hover:shadow-xl transition-all">
               <div className="grid md:grid-cols-4 gap-6 items-center">
                 <div className="text-center">
                   <div className="relative w-32 h-32 mx-auto mb-3">
@@ -256,13 +256,13 @@ export default function EditorialBoardPage() {
                   <h3 className="text-lg font-bold text-[#212121] mb-1">
                     {managingEditor.name}
                   </h3>
-                  <p className="text-sm text-[#800080] font-semibold mb-2">
+                  <p className="text-sm text-[#071936] font-semibold mb-2">
                     {managingEditor.role}
                   </p>
                   {managingEditor.email && (
                     <a
                       href={`mailto:${managingEditor.email}`}
-                      className="inline-flex items-center gap-1 text-[#800080] hover:text-[#800080] text-sm"
+                      className="inline-flex items-center gap-1 text-[#071936] hover:text-[#071936] text-sm"
                     >
                       <Mail className="h-3 w-3" />
                       Email
@@ -296,14 +296,14 @@ export default function EditorialBoardPage() {
 
           {/* Associate Editors */}
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-[#800080] mb-8 font-serif">
+            <h2 className="text-3xl font-bold text-[#071936] mb-8 font-serif">
               Associate Editors
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               {associateEditors.map((editor, idx) => (
                 <div
                   key={idx}
-                  className="bg-white border-2 border-[#EAD3D9] rounded-xl p-6 hover:shadow-xl hover:border-[#800080] transition-all"
+                  className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6 hover:shadow-xl hover:border-[#071936] transition-all"
                 >
                   <div className="text-center mb-4">
                     <div className="relative w-24 h-24 mx-auto mb-3">
@@ -317,7 +317,7 @@ export default function EditorialBoardPage() {
                     <h3 className="text-lg font-bold text-[#212121] mb-1">
                       {editor.name}
                     </h3>
-                    <p className="text-sm text-[#800080] font-semibold mb-2">
+                    <p className="text-sm text-[#071936] font-semibold mb-2">
                       {editor.role}
                     </p>
                     <p className="text-xs text-gray-600 mb-1">
@@ -332,7 +332,7 @@ export default function EditorialBoardPage() {
                           href={`https://orcid.org/${editor.orcid}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#800080] hover:text-[#800080]"
+                          className="text-[#071936] hover:text-[#071936]"
                           aria-label="ORCID"
                         >
                           <Globe className="h-4 w-4" />
@@ -341,7 +341,7 @@ export default function EditorialBoardPage() {
                       {editor.email && (
                         <a
                           href={`mailto:${editor.email}`}
-                          className="text-[#800080] hover:text-[#800080]"
+                          className="text-[#071936] hover:text-[#071936]"
                           aria-label="Email"
                         >
                           <Mail className="h-4 w-4" />

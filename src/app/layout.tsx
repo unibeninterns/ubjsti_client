@@ -1,20 +1,16 @@
 import type { Metadata } from "next";
-import { Inter, Merriweather, JetBrains_Mono } from "next/font/google";
+import { Lato, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const merriweather = Merriweather({
+// Lato for headings
+const lato = Lato({
   subsets: ["latin"],
   weight: ["400", "700", "900"],
-  variable: "--font-merriweather",
+  variable: "--font-lato",
   display: "swap",
 });
 
+// JetBrains Mono for monospace sections
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains",
@@ -55,14 +51,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${merriweather.variable} ${jetbrainsMono.variable} antialiased`}
-      >
+      <body className={`${lato.variable} ${jetbrainsMono.variable} antialiased`}>
         {children}
       </body>
     </html>

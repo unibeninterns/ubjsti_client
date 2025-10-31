@@ -27,30 +27,30 @@ export default function STIJournalHome() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header/Navigation */}
-      <header className="bg-[#800080] text-white shadow-lg sticky top-0 z-50">
+      <header className="bg-[#071936] text-white shadow-lg sticky top-0 z-50">
         <Header/>
 
         {/* Secondary Navigation */}
-        <div className="bg-[#fbefff] border-b border-[#E5CCE5]">
+        <div className="bg-white border-b border-[#071936]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex items-center justify-between py-3">
       {!showSearch && (
         <div className="flex items-center gap-6 text-sm">
           <Link
             href="/editorial-board"
-            className="text-[#800080] hover:text-[#5A0A1A] font-medium transition-colors"
+            className="text-[#071936] hover:text-[#071936c2] font-medium transition-colors"
           >
             Editorial Board
           </Link>
           <Link
             href="/policies"
-            className="text-[#800080] hover:text-[#5A0A1A] font-medium transition-colors"
+            className="text-[#071936] hover:text-[#071936c2] font-medium transition-colors"
           >
             Policies
           </Link>
           <Link
             href="/contact"
-            className="text-[#800080] hover:text-[#5A0A1A] font-medium transition-colors"
+            className="text-[#071936] hover:text-[#071936c2] font-medium transition-colors"
           >
             Contact
           </Link>
@@ -64,7 +64,7 @@ export default function STIJournalHome() {
               placeholder="Search articles..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-64 px-4 py-2 pl-10 rounded-full border border-[#5A0A1A] focus:outline-none focus:ring-2 focus:ring-[#800080] text-black text-sm"
+              className="w-64 px-4 py-2 pl-10 rounded-full border border-[#071936] focus:outline-none focus:ring-2 focus:ring-[#071936] text-black text-sm"
             />
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
           </div>
@@ -73,7 +73,7 @@ export default function STIJournalHome() {
           {!showSearch ? (
             <button
               onClick={() => setShowSearch(true)}
-              className="p-2 text-[#800080]"
+              className="p-2 text-[#071936]"
             >
               <Search className="h-5 w-5" />
             </button>
@@ -85,14 +85,14 @@ export default function STIJournalHome() {
                   placeholder="Search articles..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-4 py-2 pl-10 rounded-full border border-[#5A0A1A] focus:outline-none focus:ring-2 focus:ring-[#800080] text-black text-sm"
+                  className="w-full px-4 py-2 pl-10 rounded-full border border-[#071936] focus:outline-none focus:ring-2 focus:ring-[#071936] text-black text-sm"
                   autoFocus
                 />
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
               </div>
               <button
                 onClick={() => setShowSearch(false)}
-                className="p-2 text-[#800080]"
+                className="p-2 text-[#071936]"
               >
                 ✕
               </button>
@@ -107,7 +107,7 @@ export default function STIJournalHome() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-[#800080] to-[#800080] text-white py-20">
+      <section className="relative bg-[#0b1f41] text-white py-20">
         <div className="absolute inset-0 opacity-10">
           {/* Placeholder for subtle pattern/texture */}
           <Image
@@ -128,7 +128,7 @@ export default function STIJournalHome() {
             <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight font-serif">
               Advancing African and Global Perspectives in the Science, Technology and Innovation
             </h2>
-            <p className="text-xl mb-8 text-[#fbefff] leading-relaxed">
+            <p className="text-xl mb-8 text-white leading-relaxed">
               Publishing peer-reviewed scholarship in law & society, history,
               languages, culture, philosophy, arts, and environmental
               humanities.
@@ -150,14 +150,14 @@ export default function STIJournalHome() {
             <div className="block md:flex  gap-4">
               <Link
                 href="/submission"
-                className="inline-flex mb-4 md:mb-0 items-center gap-2 text-sm md:text-md bg-white text-[#800080] px-4 py-4 md:px-8 md:py-4 rounded-full font-bold hover:bg-[#fbefff] transition-all shadow-xl hover:shadow-2xl hover:scale-105"
+                className="inline-flex mb-4 md:mb-0 items-center gap-2 text-sm md:text-md bg-white text-[#071936] px-4 py-4 md:px-8 md:py-4 rounded-full font-bold hover:bg-white transition-all shadow-xl hover:shadow-2xl hover:scale-105"
               >
                 <FileText className="h-5 w-5" />
                 Submit Your Manuscript
               </Link>
               <Link
                 href="/current-issue"
-                className="inline-flex items-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-[#800080] transition-all"
+                className="inline-flex items-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-[#071936] transition-all"
               >
                 <BookOpen className="h-5 w-5" />
                 Browse Current Issue
@@ -174,14 +174,14 @@ export default function STIJournalHome() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between mb-10">
             <div>
-              <h2 className="text-3xl font-bold text-[#800080] mb-2 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-2 font-serif">
                 Current Issue
               </h2>
               <p className="text-gray-600">Volume 1, Issue 1 (2025)</p>
             </div>
             <Link
               href="/current-issue"
-              className="text-[#800080] font-semibold hover:text-[#5A0A1A] flex items-center gap-2"
+              className="text-[#071936] font-semibold hover:text-[#071936c2] flex items-center gap-2"
             >
               View Full Issue
               <ChevronRight className="h-5 w-5" />
@@ -190,10 +190,10 @@ export default function STIJournalHome() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Article Card 1 */}
-            <article className="bg-white border-2 border-[#E5CCE5] rounded-xl p-6 hover:shadow-xl hover:border-[#800080] transition-all group">
+            <article className="bg-white border-2 border-[#071936] rounded-xl p-6 hover:shadow-xl hover:border-[#071936c2] transition-all group">
               <div className="flex gap-2 mb-4">
               </div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3 group-hover:text-[#800080] transition-colors font-serif">
+              <h3 className="text-xl font-bold text-[#212121] mb-3 group-hover:text-[#071936c2] transition-colors font-serif">
                 Decolonizing Legal Education in West Africa: A Critical
                 Analysis of Pedagogical Approaches
               </h3>
@@ -208,10 +208,10 @@ export default function STIJournalHome() {
             </article>
 
             {/* Article Card 2 */}
-            <article className="bg-white border-2 border-[#E5CCE5] rounded-xl p-6 hover:shadow-xl hover:border-[#800080] transition-all group">
+            <article className="bg-white border-2 border-[#071936] rounded-xl p-6 hover:shadow-xl hover:border-[#071936c2] transition-all group">
               <div className="flex gap-2 mb-4">
               </div>
-              <h3 className="text-xl font-bold text-[#212121] mb-3 group-hover:text-[#800080] transition-colors font-serif">
+              <h3 className="text-xl font-bold text-[#212121] mb-3 group-hover:text-[#071936c2] transition-colors font-serif">
                 Environmental Humanities and Climate Justice: Perspectives from
                 the Niger Delta
               </h3>
@@ -233,7 +233,7 @@ export default function STIJournalHome() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-[#800080] mb-6 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-6 font-serif">
                 About the Journal
               </h2>
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -250,7 +250,7 @@ export default function STIJournalHome() {
               </p>
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 text-[#800080] font-semibold hover:text-[#5A0A1A] text-lg"
+                className="inline-flex items-center gap-2 text-[#071936] font-semibold hover:text-[#071936c2] text-lg"
               >
                 Learn More About Our Mission
                 <ChevronRight className="h-5 w-5" />
@@ -273,7 +273,7 @@ export default function STIJournalHome() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#800080] mb-4 font-serif">
+            <h2 className="text-3xl font-bold text-[#071936] mb-4 font-serif">
               Why Publish With Us
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -284,8 +284,8 @@ export default function STIJournalHome() {
 
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-20 h-20 bg-[#fbefff] rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-10 w-10 text-[#800080]" />
+              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <CheckCircle className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
                 No APCs
@@ -296,8 +296,8 @@ export default function STIJournalHome() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-[#fbefff] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="h-10 w-10 text-[#800080]" />
+              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
                 Fast Review
@@ -308,8 +308,8 @@ export default function STIJournalHome() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-[#fbefff] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe className="h-10 w-10 text-[#800080]" />
+              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <Globe className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
                 Global Reach
@@ -320,8 +320,8 @@ export default function STIJournalHome() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-[#fbefff] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="h-10 w-10 text-[#800080]" />
+              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+                <Shield className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
                 Preserved Forever
@@ -339,7 +339,7 @@ export default function STIJournalHome() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="block md:flex items-center justify-between mb-10">
             <div>
-              <h2 className="text-3xl font-bold text-[#800080] mb-2 font-serif">
+              <h2 className="text-3xl font-bold text-[#071936] mb-2 font-serif">
                 Editorial Leadership
               </h2>
               <p className="text-gray-600 mb-4">
@@ -348,7 +348,7 @@ export default function STIJournalHome() {
             </div>
             <Link
               href="/editorial-board"
-              className="text-[#800080] font-semibold hover:text-[#5A0A1A] flex items-center gap-2"
+              className="text-[#071936] font-semibold hover:text-[#071936c2] flex items-center gap-2"
             >
               View Full Board
               <ChevronRight className="h-5 w-5" />
@@ -357,7 +357,7 @@ export default function STIJournalHome() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Editor-in-Chief Card */}
-            <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#800080]">
+            <div className="bg-white rounded-xl p-6 shadow-lg border-2 border-[#071936]">
               <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4">
                 {/* Placeholder for editor photo */}
                 <Image
@@ -369,7 +369,7 @@ export default function STIJournalHome() {
                 />
               </div>
               <div className="text-center">
-                <p className="text-sm text-[#800080] font-bold mb-1">
+                <p className="text-sm text-[#071936] font-bold mb-1">
                   EDITOR-IN-CHIEF
                 </p>
                 <h3 className="text-lg font-bold text-[#212121] mb-1">
@@ -383,14 +383,14 @@ export default function STIJournalHome() {
                 <div className="flex justify-center gap-2">
                   <a
                     href="#"
-                    className="text-[#800080] hover:text-[#5A0A1A]"
+                    className="text-[#071936] hover:text-[#071936c2]"
                     aria-label="ORCID"
                   >
                     <ExternalLink className="h-4 w-4" />
                   </a>
                   <a
                     href="#"
-                    className="text-[#800080] hover:text-[#5A0A1A]"
+                    className="text-[#071936] hover:text-[#071936c2]"
                     aria-label="Email"
                   >
                     <Mail className="h-4 w-4" />
@@ -400,7 +400,7 @@ export default function STIJournalHome() {
             </div>
 
             {/* Associate Editor 1 */}
-            <div className="bg-white rounded-xl p-6 shadow-md border border-[#E5CCE5] hover:border-[#800080] transition-colors">
+            <div className="bg-white rounded-xl p-6 shadow-md border border-[#071936] hover:border-[#071936] transition-colors">
               <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4">
                 <Image
                   src="/editor-2.png"
@@ -411,7 +411,7 @@ export default function STIJournalHome() {
                 />
               </div>
               <div className="text-center">
-                <p className="text-sm text-[#800080] font-bold mb-1">
+                <p className="text-sm text-[#071936] font-bold mb-1">
                   ASSOCIATE EDITOR
                 </p>
                 <h3 className="text-lg font-bold text-[#212121] mb-1">
@@ -425,14 +425,14 @@ export default function STIJournalHome() {
                 <div className="flex justify-center gap-2">
                   <a
                     href="#"
-                    className="text-[#800080] hover:text-[#5A0A1A]"
+                    className="text-[#071936] hover:text-[#071936c2]"
                     aria-label="ORCID"
                   >
                     <ExternalLink className="h-4 w-4" />
                   </a>
                   <a
                     href="#"
-                    className="text-[#800080] hover:text-[#5A0A1A]"
+                    className="text-[#071936] hover:text-[#071936c2]"
                     aria-label="Email"
                   >
                     <Mail className="h-4 w-4" />
@@ -442,7 +442,7 @@ export default function STIJournalHome() {
             </div>
 
             {/* Associate Editor 2 */}
-            <div className="bg-white rounded-xl p-6 shadow-md border border-[#E5CCE5] hover:border-[#800080] transition-colors">
+            <div className="bg-white rounded-xl p-6 shadow-md border border-[#071936] hover:border-[#071936] transition-colors">
               <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-4">
                 <Image
                   src="/editor-3.png"
@@ -453,7 +453,7 @@ export default function STIJournalHome() {
                 />
               </div>
               <div className="text-center">
-                <p className="text-sm text-[#800080] font-bold mb-1">
+                <p className="text-sm text-[#071936] font-bold mb-1">
                   ASSOCIATE EDITOR
                 </p>
                 <h3 className="text-lg font-bold text-[#212121] mb-1">
@@ -467,14 +467,14 @@ export default function STIJournalHome() {
                 <div className="flex justify-center gap-2">
                   <a
                     href="#"
-                    className="text-[#800080] hover:text-[#5A0A1A]"
+                    className="text-[#071936] hover:text-[#071936c2]"
                     aria-label="ORCID"
                   >
                     <ExternalLink className="h-4 w-4" />
                   </a>
                   <a
                     href="#"
-                    className="text-[#800080] hover:text-[#5A0A1A]"
+                    className="text-[#071936] hover:text-[#071936c2]"
                     aria-label="Email"
                   >
                     <Mail className="h-4 w-4" />
@@ -487,7 +487,7 @@ export default function STIJournalHome() {
       </section>
 
       {/* Indexing & Trust Indicators */}
-      <section className="py-12 bg-white border-t-2 border-[#E5CCE5]">
+      <section className="py-12 bg-white border-t-2 border-[#071936]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-center text-sm text-gray-600 font-semibold mb-6">
             INDEXED & PRESERVED BY

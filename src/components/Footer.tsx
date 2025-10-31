@@ -4,16 +4,16 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-  <footer className="bg-[#FAF7F8] border-t border-[#EAD3D9] py-12">
+  <footer className="bg-white border-t border-[#071936c2] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="font-bold text-[#800080] mb-4">Quick Links</h3>
+              <h3 className="font-bold text-[#06142b] mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
                   <Link
                     href=""
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Home
                   </Link>
@@ -21,7 +21,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/current-issue"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Current Issue
                   </Link>
@@ -29,7 +29,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/archives"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Archives
                   </Link>
@@ -37,7 +37,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/for-authors"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     For Authors
                   </Link>
@@ -45,12 +45,12 @@ export default function Header() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-[#800080] mb-4">About</h3>
+              <h3 className="font-bold text-[#06142b] mb-4">About</h3>
               <ul className="space-y-2">
                 <li>
                   <Link
                     href="/about"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Journal Overview
                   </Link>
@@ -58,7 +58,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/editorial-board"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Editorial Board
                   </Link>
@@ -66,7 +66,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/policies"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Policies
                   </Link>
@@ -74,12 +74,12 @@ export default function Header() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-[#800080] mb-4">Resources</h3>
+              <h3 className="font-bold text-[#06142b] mb-4">Resources</h3>
               <ul className="space-y-2">
                 <li>
                   <Link
                     href="/for-authors"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Author Guidelines
                   </Link>
@@ -87,7 +87,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/peer-review"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Peer Review Process
                   </Link>
@@ -95,7 +95,7 @@ export default function Header() {
                 <li>
                   <Link
                     href="/ethics"
-                    className="text-gray-600 hover:text-[#800080]"
+                    className="text-gray-600 hover:text-[#06142b]"
                   >
                     Publication Ethics
                   </Link>
@@ -103,13 +103,13 @@ export default function Header() {
               </ul>
             </div>
             <div>
-              <h3 className="font-bold text-[#800080] mb-4">Contact</h3>
+              <h3 className="font-bold text-[#06142b] mb-4">Contact</h3>
               <p className="text-gray-600 text-sm mb-2">
                 <strong>Email:</strong>
                 <br />
                 <a
                   href="mailto:journalst@uniben.edu"
-                  className="hover:text-[#800080]"
+                  className="hover:text-[#06142b]"
                 >
                   journalst@uniben.edu
                 </a>
@@ -123,19 +123,19 @@ export default function Header() {
               </p>
             </div>
           </div>
-          <div className="border-t border-[#EAD3D9] pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
+          <div className="border-t border-[#071936c2] pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
             <p>
               © {new Date().getFullYear()} University of Benin — UNIBEN Journal
               of Science, Technology and Innovation
             </p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <Link href="#" className="hover:text-[#800080]">
+              <Link href="#" className="hover:text-[#06142b]">
                 Privacy Policy
               </Link>
-              <Link href="#" className="hover:text-[#800080]">
+              <Link href="#" className="hover:text-[#06142b]">
                 Terms of Use
               </Link>
-              <Link href="#" className="hover:text-[#800080]">
+              <Link href="#" className="hover:text-[#06142b]">
                 Accessibility
               </Link>
             </div>
