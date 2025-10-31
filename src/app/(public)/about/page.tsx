@@ -36,7 +36,7 @@ export default function AboutPage() {
             <h1 className="text-5xl font-bold mb-6 leading-tight font-serif">
               About the Journal
             </h1>
-            <p className="text-xl text-[#fbefff] leading-relaxed">
+            <p className="text-xl text-[white] leading-relaxed">
               Advancing scholarship in the Science, Technology and Innovation with African and global
               perspectives
             </p>
@@ -52,7 +52,7 @@ export default function AboutPage() {
             {/* Mission & Scope */}
             <section>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#8690a0c2] rounded-full flex items-center justify-center">
                   <Target className="h-6 w-6 text-[#071936]" />
                 </div>
                 <h2 className="text-3xl font-bold text-[#071936] font-serif">
@@ -152,7 +152,7 @@ export default function AboutPage() {
             {/* Editorial Team Preview */}
             <section>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#8690a0c2] rounded-full flex items-center justify-center">
                   <Users className="h-6 w-6 text-[#071936]" />
                 </div>
                 <h2 className="text-3xl font-bold text-[#071936] font-serif">
@@ -197,7 +197,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Managing Editor */}
-                <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6 hover:border-[#071936c2] transition-colors">
+                <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6 hover:border-[#071936c2] transition-colors">
                   <div className="w-20 h-20 bg-gray-200 rounded-full mb-4">
                     <Image
                       src="/managing-editor.png"
@@ -236,7 +236,7 @@ export default function AboutPage() {
             {/* Peer Review Process */}
             <section>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#8690a0c2] rounded-full flex items-center justify-center">
                   <Shield className="h-6 w-6 text-[#071936]" />
                 </div>
                 <h2 className="text-3xl font-bold text-[#071936] font-serif">
@@ -340,7 +340,7 @@ export default function AboutPage() {
             {/* Indexing & Metrics */}
             <section>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#8690a0c2] rounded-full flex items-center justify-center">
                   <Globe className="h-6 w-6 text-[#071936]" />
                 </div>
                 <h2 className="text-3xl font-bold text-[#071936] font-serif">
@@ -402,7 +402,7 @@ export default function AboutPage() {
             {/* History & Achievements */}
             <section>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-[#fbefff] rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-[#8690a0c2] rounded-full flex items-center justify-center">
                   <Award className="h-6 w-6 text-[#071936]" />
                 </div>
                 <h2 className="text-3xl font-bold text-[#071936] font-serif">
@@ -427,7 +427,7 @@ export default function AboutPage() {
 
                 <div className="bg-[#071936] text-white rounded-xl p-8">
                   <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
-                  <p className="text-[#fbefff] leading-relaxed">
+                  <p className="text-[white] leading-relaxed">
                     To become a leading platform for Science, Technology and Innovation scholarship that
                     centers African voices, challenges colonial epistemologies,
                     and contributes to global conversations on justice, culture,
@@ -486,23 +486,23 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="pb-4 border-b border-white/20">
                     <div className="text-3xl font-bold mb-1">Diamond OA</div>
-                    <div className="text-sm text-[#fbefff]">
+                    <div className="text-sm text-[#8690a0c2]">
                       Open Access Model
                     </div>
                   </div>
                   <div className="pb-4 border-b border-white/20">
                     <div className="text-3xl font-bold mb-1">3-6 Weeks</div>
-                    <div className="text-sm text-[#fbefff]">Review Time</div>
+                    <div className="text-sm text-[#8690a0c2]">Review Time</div>
                   </div>
                   <div>
                     <div className="text-3xl font-bold mb-1">CC BY 4.0</div>
-                    <div className="text-sm text-[#fbefff]">License Type</div>
+                    <div className="text-sm text-[#8690a0c2]">License Type</div>
                   </div>
                 </div>
               </div>
 
               {/* CTA Box */}
-              <div className="bg-white border-2 border-[#fbefff] rounded-xl p-6">
+              <div className="bg-white border-2 border-[#8690a0c2] rounded-xl p-6">
                 <h3 className="text-lg font-bold text-[#071936] mb-4">
                   Ready to Publish?
                 </h3>

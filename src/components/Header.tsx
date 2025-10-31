@@ -27,7 +27,7 @@ export default function Header() {
               <h1 className="text-lg md:text-xl font-bold tracking-tight">
                 UNIBEN Journal of Science, Technology and Innovation
               </h1>
-              <p className="text-sm text-[#FFE9EE] font-medium">Archives</p>
+              <p className="text-sm text-[#8690a0c2] font-medium">Archives</p>
             </div>
           </div>
 
@@ -35,37 +35,37 @@ export default function Header() {
           <nav className="hidden lg:text-sm lg:flex items-center gap-6">
             <Link
               href="/"
-              className="text-white hover:text-[#FFE9EE] font-semibold transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-semibold transition-colors"
             >
               Home
             </Link>
             <Link
               href="/current-issue"
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               Current Issue
             </Link>
             <Link
               href="/archives"
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               Archives
             </Link>
             <Link
               href="/for-authors"
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               For Authors
             </Link>
             <Link
               href="/about"
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               About
             </Link>
             <Link
               href="/submission"
-              className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#FFE9EE] transition-all shadow-lg hover:shadow-xl"
+              className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#8690a0c2] transition-all shadow-lg hover:shadow-xl"
             >
               Submit Manuscript
             </Link>
@@ -73,7 +73,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden flex items-center justify-center p-2 text-white hover:text-[#FFE9EE] focus:outline-none"
+            className="lg:hidden flex items-center justify-center p-2 text-white hover:text-[#8690a0c2] focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -83,47 +83,47 @@ export default function Header() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-[#071936] border-t border-[#FFE9EE]/20 absolute right-0 top-20 w-3/4 sm:w-1/2 rounded-bl-xl shadow-lg animate-slide-down">
+        <div className="lg:hidden bg-[#071936] border-t border-[#8690a0c2]/20 absolute right-0 top-20 w-3/4 sm:w-1/2 rounded-bl-xl shadow-lg animate-slide-down">
           <nav className="flex flex-col p-6 space-y-4">
             <Link
               href="/"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#FFE9EE] font-semibold transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-semibold transition-colors"
             >
               Home
             </Link>
             <Link
               href="/current-issue"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               Current Issue
             </Link>
             <Link
               href="/archives"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               Archives
             </Link>
             <Link
               href="/for-authors"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               For Authors
             </Link>
             <Link
               href="/about"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#FFE9EE] font-medium transition-colors"
+              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
             >
               About
             </Link>
             <Link
               href="/submission"
               onClick={() => setIsOpen(false)}
-              className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#FFE9EE] transition-all shadow-lg hover:shadow-xl text-center"
+              className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#8690a0c2] transition-all shadow-lg hover:shadow-xl text-center"
             >
               Submit Manuscript
             </Link>
