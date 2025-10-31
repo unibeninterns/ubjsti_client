@@ -284,7 +284,7 @@ export default function STIJournalHome() {
 
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-[#8690a0c2] rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
@@ -296,7 +296,7 @@ export default function STIJournalHome() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-[#8690a0c2] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
@@ -308,7 +308,7 @@ export default function STIJournalHome() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-[#8690a0c2] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Globe className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">
@@ -320,7 +320,7 @@ export default function STIJournalHome() {
             </div>
 
             <div className="text-center">
-              <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-[#8690a0c2] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Shield className="h-10 w-10 text-[#071936]" />
               </div>
               <h3 className="text-xl font-bold text-[#212121] mb-2">

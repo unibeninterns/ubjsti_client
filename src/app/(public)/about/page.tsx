@@ -18,7 +18,7 @@ import Footer from "@/components/Footer";
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen bg-white">
      <Header/>
 
       {/* Hero Section */}
@@ -312,7 +312,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="flex gap-4">
-                      <div className="flex-shrink-0 w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white font-bold">
+                      <div className="flex-shrink-0 w-10 h-10 bg-[#071936] rounded-full flex items-center justify-center text-white font-bold">
                         5
                       </div>
                       <div className="flex-1">

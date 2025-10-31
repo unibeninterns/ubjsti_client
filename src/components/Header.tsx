@@ -3,10 +3,20 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react"; // icons for the burger and close button
+import { usePathname } from "next/navigation";
+import { Menu, X, Search } from "lucide-react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  // function to style active vs normal links
+  const linkClass = (path: string) =>
+    `relative font-medium transition-colors pb-1 border-b-2 ${
+      pathname === path
+        ? "font-bold border-white text-white"
+        : "border-transparent text-white hover:text-[#8690a0c2] hover:border-[#8690a0c2]"
+    }`;
 
   return (
     <header className="bg-[#071936] border-b border-white text-white shadow-lg sticky top-0 z-50">
@@ -31,38 +41,37 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Desktop Nav */}
+          {/* Desktop Navigation */}
           <nav className="hidden lg:text-sm lg:flex items-center gap-6">
-            <Link
-              href="/"
-              className="text-white hover:text-[#8690a0c2] font-semibold transition-colors"
-            >
+            <Link href="/" className={linkClass("/")}>
               Home
             </Link>
-            <Link
-              href="/current-issue"
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
-            >
+            <Link href="/current-issue" className={linkClass("/current-issue")}>
               Current Issue
             </Link>
-            <Link
-              href="/archives"
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
-            >
+            <Link href="/archives" className={linkClass("/archives")}>
               Archives
             </Link>
-            <Link
-              href="/for-authors"
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
-            >
+            <Link href="/for-authors" className={linkClass("/for-authors")}>
               For Authors
             </Link>
-            <Link
-              href="/about"
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
-            >
+            <Link href="/about" className={linkClass("/about")}>
               About
             </Link>
+
+            {/* 🔍 Search Icon */}
+            <Link
+              href="/search"
+              className={`flex items-center transition-colors pb-1 border-b-2 ${
+                pathname === "/search"
+                  ? "font-bold border-white text-white"
+                  : "border-transparent text-white hover:text-[#8690a0c2] hover:border-[#8690a0c2]"
+              }`}
+              aria-label="Advanced Search"
+            >
+              <Search size={22} />
+            </Link>
+
             <Link
               href="/submission"
               className="bg-white text-[#071936] px-6 py-2 rounded-full font-semibold hover:bg-[#8690a0c2] transition-all shadow-lg hover:shadow-xl"
@@ -88,38 +97,52 @@ export default function Header() {
             <Link
               href="/"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#8690a0c2] font-semibold transition-colors"
+              className={linkClass("/")}
             >
               Home
             </Link>
             <Link
               href="/current-issue"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
+              className={linkClass("/current-issue")}
             >
               Current Issue
             </Link>
             <Link
               href="/archives"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
+              className={linkClass("/archives")}
             >
               Archives
             </Link>
             <Link
               href="/for-authors"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
+              className={linkClass("/for-authors")}
             >
               For Authors
             </Link>
             <Link
               href="/about"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-[#8690a0c2] font-medium transition-colors"
+              className={linkClass("/about")}
             >
               About
             </Link>
+
+            {/* 🔍 Mobile Search */}
+            <Link
+              href="/search"
+              onClick={() => setIsOpen(false)}
+              className={`flex items-center gap-2 pb-1 border-b-2 ${
+                pathname === "/search"
+                  ? "font-bold border-white text-white"
+                  : "border-transparent text-white hover:text-[#8690a0c2] hover:border-[#8690a0c2]"
+              }`}
+            >
+              <Search size={20} /> Advanced Search
+            </Link>
+
             <Link
               href="/submission"
               onClick={() => setIsOpen(false)}

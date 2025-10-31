@@ -416,7 +416,7 @@ export default function SubmissionPortalPage() {
                   onClick={() =>
                     setExpandedFAQ(expandedFAQ === idx ? null : idx)
                   }
-                  className="w-full flex items-center justify-between p-6 text-left hover:bg-[#FAF7F8] transition-colors"
+                  className="w-full flex items-center justify-between p-6 text-left hover:bg-[#8690a0c2] transition-colors"
                 >
                   <div className="flex items-start gap-3 flex-1">
                     <HelpCircle className="h-5 w-5 text-[#071936] flex-shrink-0 mt-0.5" />

@@ -399,7 +399,7 @@ export default function CurrentIssuePage() {
                   placeholder="Enter your email"
                   className="flex-1 mb-2 w-full md:mb-0 px-4 py-2 border-2 border-[#8690a0c2] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#071936]"
                 />
-                <button className="bg-[#071936] text-white px-6 py-2 rounded-lg hover:bg-[#071936] transition-colors font-semibold">
+                <button className="bg-[#071936] text-white px-6 py-2 rounded-lg hover:bg-[#8690a0c2] transition-colors font-semibold">
                   Subscribe
                 </button>
               </div>
